@@ -1,0 +1,121 @@
+html,body {
+    height:100%;
+    width:100%;
+    margin:0;
+    background-image: url(image/starry-sky-4k-8k-wallpaper-preview\ \(1\).webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  body , body {
+    display:flex;
+  }
+  form {
+    margin:auto;
+  }
+.titre {
+    opacity: 100%;
+    border-radius: 10%;
+    color: rgb(255, 255, 255);
+    /* opacity: 70%; */
+}
+.email {
+    height: 20px;
+    margin: 40px;
+    width: auto;
+}
+.mdp {
+    margin: 40px;
+}
+.connexion {
+    margin: 170px;
+    border-radius: 20px;
+    width: 120px;
+}
+.titre {
+    text-align: center;   
+}
+.input {
+    margin: auto;
+    height: auto;
+    width: auto;
+}
+.bordure {
+    border-color: black;
+    border: solid 0.3em;
+    width: auto;
+    padding: 0.5em;
+    border-radius: 15px;
+    background-image: url(image/starry-sky-4k-8k-wallpaper-preview\ \(1\).webp);
+    background-repeat: no-repeat;
+    background-size: 250%;
+}
+h1 {
+    padding-bottom: 30px;
+    font-weight: 900;
+    font-size: 35px;
+  }
+  .form {
+    width: 30%;
+    position: relative;
+    height: 60px;
+    overflow: hidden;
+    margin: auto;
+  }
+  
+  .form input {
+    width: 100%;
+    height: 100%;
+    color: #000000;
+    padding-top: 20px;
+    border: none;
+  }
+  .form label {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    border-bottom: 1px solid white;
+  }
+  .form label::after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    border-bottom: 3px solid aqua;
+    transform: translateX(-100%);
+    transition: all 0.3s ease;
+  }
+  
+  .content-name {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-bottom: 5px;
+    transition: all 0.3s ease;
+  }
+  .form input:focus {
+    outline: none;
+  }
+  .form input:focus + .label-name .content-name,
+  .form input:valid + .label-name .content-name {
+    transform: translateY(-150%);
+    font-size: 14px;
+    left: 0px;
+    color: aqua;
+  }
+  .form input:focus + .label-name::after,
+  .form input:valid + .label-name::after {
+    transform: translateX(0%);
+  }
+  .ol {
+    opacity: 20%;
+  }
+.inscription {
+    margin: auto;
+    border-radius: 20px;
+    width: auto;
+}
